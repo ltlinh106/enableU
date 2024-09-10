@@ -1,5 +1,5 @@
 import "../../assets/styles/index.css";
-import NewCategory from "./NewCategory.jsx";
+import NewCategory from "./newCategory.jsx";
 import GreenPlusIcon from "../../components/icons/GreenPlus.jsx";
 import RedTrashIcon from "../../components/icons/RedTrash.jsx";
 import PropTypes from "prop-types";
