@@ -6,32 +6,32 @@ const steps = [
   {
     title: "Open Your Web Browser",
     desc: "Open any web browser on your computer or mobile device (example: Chrome, Firefox, Safari).",
-    img: "/public/images/steps_img/step1.png",
+    img: "/images/steps_img/step1.png",
   },
   {
     title: "Go to YouTube",
     desc: "Type www.youtube.com into the address bar and press Enter. This will take you to the YouTube homepage.",
-    img: "/public/images/steps_img/step2.png",
+    img: "/images/steps_img/step2.png",
   },
   {
     title: "Search for a Video",
     desc: "In the search bar at the top of the page, type keywords related to the video you want to watch (example: làm sao để bán được một tỉ gói mè). Then, Press Enter or click the magnifying glass icon to start the search.",
-    img: "/public/images/steps_img/step3.png",
+    img: "/images/steps_img/step3.png",
   },
   {
     title: "Browse Search Results",
     desc: "Scroll through the list of search results to find the video you're interested in. You can see the video title, thumbnail, and duration.",
-    img: "/public/images/steps_img/step4.png",
+    img: "/images/steps_img/step4.png",
   },
   {
     title: "Select a Video",
     desc: "Click on the video thumbnail or title to open it. This will take you to the video player page.",
-    img: "/public/images/steps_img/step5.png",
+    img: "/images/steps_img/step5.png",
   },
   {
     title: "Play the Video",
     desc: "Click the play button (a triangle icon) in the center of the video player to start watching the video.",
-    img: "/public/images/steps_img/step6.png",
+    img: "/images/steps_img/step6.png",
   },
 ];
 function LessonDetailSTS() {

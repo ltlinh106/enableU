@@ -48,7 +48,7 @@ function LessonVideo() {
     title: "How to handwash with soap and water",
     description:
       "Hand hygiene, either with soap and water or with alcohol-based handrub, is one of the best ways to avoid getting sick and spreading infections to others. Indeed, hand hygiene is an easy, inexpensive, and effective mean to prevent the spread of germs and keep everyone  healthy.",
-    src: "/public/video/howToWashHand.mp4",
+    src: "/video/howToWashHand.mp4",
   };
   const speech =
     "Welcome to Lesson 3: " +
@@ -64,7 +64,7 @@ function LessonVideo() {
     window.speechSynthesis.speak(utterance);
   }, [speech]);
   useEffect(() => {
-    fetch("/public/transcript/howToWashHand.vtt")
+    fetch("/transcript/howToWashHand.vtt")
       .then((response) => response.text())
       .then((vttText) => {
         const parsedCaptions = parseVTT(vttText);
@@ -178,7 +178,7 @@ function LessonVideo() {
             <source src={lessonDetail.src} type="video/mp4" />
             <track
               kind="subtitles"
-              src="/public/transcript/howToWashHand.vtt"
+              src="/transcript/howToWashHand.vtt"
               srcLang="en"
               label="English"
               default

@@ -6,44 +6,44 @@ const steps = [
   {
     title: "Remove any jewelery",
     desc: "Remove all jewelry such as rings and bracelets from your hands.",
-    img: "/public/images/steps_img/step1c.png",
-    audio: "/public/records/step1.mp3",
+    img: "/images/steps_img/step1c.png",
+    audio: "/records/step1.mp3",
   },
   {
     title: "Wet Hands",
     desc: "Turn on the tap and wet your hands with clean, running water (warm or cold).",
-    img: "/public/images/steps_img/step2c.png",
-    audio: "/public/records/step2.mp3",
+    img: "/images/steps_img/step2c.png",
+    audio: "/records/step2.mp3",
   },
   {
     title: "Apply Soap",
     desc: "Lather your hands with soap. Use enough soap to cover all surfaces of your hands.",
-    img: "/public/images/steps_img/step3c.png",
-    audio: "/public/records/step3.mp3",
+    img: "/images/steps_img/step3c.png",
+    audio: "/records/step3.mp3",
   },
   {
     title: "Scrub",
     desc: "Rub your hands together for at least 20 seconds. Be sure to scrub all parts of your hands, including the backs, between your fingers, and under your nails.",
-    img: "/public/images/steps_img/step4c.png",
-    audio: "/public/records/step4.mp3",
+    img: "/images/steps_img/step4c.png",
+    audio: "/records/step4.mp3",
   },
   {
     title: "Rinse",
     desc: "Rinse your hands thoroughly under running water to remove all soap and any loosened dirt or germs.",
-    img: "/public/images/steps_img/step5c.png",
-    audio: "/public/records/step5.mp3",
+    img: "/images/steps_img/step5c.png",
+    audio: "/records/step5.mp3",
   },
   {
     title: "Dry",
     desc: "Dry your hands using a clean towel or air dryer. If you’re using a towel, it’s a good idea to use it to turn off the tap to avoid recontaminating your hands.",
-    img: "/public/images/steps_img/step6c.png",
-    audio: "/public/records/step6.mp3",
+    img: "/images/steps_img/step6c.png",
+    audio: "/records/step6.mp3",
   },
   {
     title: "Dispose of Towel",
     desc: "If you used a paper towel, dispose of it properly.",
-    img: "/public/images/steps_img/step7c.png",
-    audio: "/public/records/step7.mp3",
+    img: "/images/steps_img/step7c.png",
+    audio: "/records/step7.mp3",
   },
 ];
 function LessonDetailSTS2() {
@@ -145,7 +145,7 @@ function LessonDetailSTS2() {
           ref={currentStep === -1 ? audioRef : null}
           className="lesson-detail-audio-introduction"
         >
-          <source src="/public/records/introduction.mp3" type="audio/mpeg" />
+          <source src="/records/introduction.mp3" type="audio/mpeg" />
           Your browser does not support the audio element.
         </audio>
       </div>

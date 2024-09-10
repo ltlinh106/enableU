@@ -18,7 +18,7 @@ function CreateNewCourse() {
   ]);
   const [outcomes, setOutcomes] = useState([{ id: 0 }]);
   const [prerequisites, setPrerequisites] = useState([{ id: 0 }]);
-  const [image, setImage] = useState("/src/assets/images/picture.png");
+  const [image, setImage] = useState("/images/picture.png");
   const validationSchema = () =>
     Yup.object({
       name: Yup.string().required("Required!"),

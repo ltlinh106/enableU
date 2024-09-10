@@ -11,11 +11,7 @@ function Header() {
         <div className="site_name">IMAGOWORK</div>
 
         <div className="right-section">
-          <img
-            className="avatar"
-            src={"/public/images/user_null.png"}
-            alt="Avatar"
-          />
+          <img className="avatar" src={"/images/user_null.png"} alt="Avatar" />
         </div>
       </div>
     </header>
