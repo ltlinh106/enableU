@@ -13,7 +13,7 @@ function Header() {
         <div className="right-section">
           <img
             className="avatar"
-            src={"/src/assets/images/user_null.png"}
+            src={"/public/images/user_null.png"}
             alt="Avatar"
           />
         </div>
