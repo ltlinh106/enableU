@@ -1,0 +1,10 @@
+:root {
+  --default-white: #fff;
+  --gray-300: #dee2e6;
+  --gray-500: #adb5db;
+  --primary-color: #7749f8;
+}
+
+#menu- ul {
+  max-height: 200px;
+}

@@ -1,0 +1,82 @@
+@font-face {
+  font-family: Dosis;
+  src: url(../fonts/Dosis-Regular.woff);
+}
+@font-face {
+  font-family: DosisBold;
+  src: url(../fonts/dosis-bold-webfont.woff);
+}
+@font-face {
+  font-family: Nunito;
+  src: url(../fonts/Nunito-Regular.woff);
+}
+
+@font-face {
+  font-family: Inter;
+  src: url(../fonts/Inter-Regular.woff);
+}
+
+.header-site {
+  height: 40px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding-left: 24px;
+  box-sizing: border-box;
+  background-color: #ffffff;
+  border: solid transparent;
+  border-image: linear-gradient(to bottom, #3b3c3c, #ffffff);
+  border-width: 0 0 4px 0;
+  border-image-slice: 10%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+}
+.left-section {
+  display: flex;
+  align-items: center;
+}
+
+.menu-icon {
+  width: 24px;
+  height: 24px;
+  margin-right: 16px;
+  cursor: pointer;
+}
+
+.site-name {
+  font-size: 20px;
+  color: #42526e;
+  font-family: DosisBold, sans-serif;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.right-section .avatar {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  cursor: pointer;
+  right: 32px;
+  position: absolute;
+  top: 2px;
+}
+.sidebar-container {
+  width: 160px;
+  height: 100vh;
+  position: fixed;
+  left: 0;
+  color: white;
+  background-color: #fafbfc;
+  text-align: left;
+  border: solid transparent;
+  border-image: linear-gradient(to right, #091e42, #ffffff);
+  border-width: 0 4px 0 0;
+  border-image-slice: 10%;
+}
+.main-content {
+  margin-top: 40px;
+  margin-left: 160px;
+  padding-bottom: 64px;
+}
